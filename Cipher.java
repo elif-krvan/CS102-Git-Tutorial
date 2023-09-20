@@ -17,7 +17,6 @@ public class Cipher
         {
             // append the encrypted version of the char to the output string
             outputString += replaceChar(inputString.charAt(i), true);
-            // replaceChar
         }
 
         return outputString;
